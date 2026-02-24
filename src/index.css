@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/..."); /* Mantenha no topo */
+@import "tailwindcss";
+
+@theme {
+  --font-primary: "DM Serif Text", serif;
+  --font-secondary: "Roboto", sans-serif;
+
+  /* cores de texto */
+  --color-text-primary: #f8fafc;
+  --color-text-secondary: #94a3b8;
+  --color-text-destacado: #3B82F6;
+
+  /* cores de fundo */
+  --color-bg-primary: #0f172a;
+
+  /* cores de card */
+    --color-card-bg: #1E293B;
+    --color-card-border: #334155;
+
+  /* cores de alertas */
+  --color-alert-success: #10b981;
+  --color-alert-error: #f43f5e;
+}
