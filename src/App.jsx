@@ -1,6 +1,6 @@
-import { StrictMode } from "react"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
+import Coins_Dashboard from "./components/Coins_Dashboard"
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
         <div>
           <Header />
           <Hero />
+          <Coins_Dashboard />
         </div>
       </div>
   )
