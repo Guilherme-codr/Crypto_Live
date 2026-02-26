@@ -1,6 +1,7 @@
 import Header from "./components/Header"
 import Hero from "./components/Hero"
 import Coins_Dashboard from "./components/Coins_Dashboard"
+import DashBoard from "./components/DashBoard"
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
           <Header />
           <Hero />
           <Coins_Dashboard />
+          <DashBoard />
         </div>
       </div>
   )

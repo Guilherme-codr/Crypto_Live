@@ -25,7 +25,7 @@ const Coins_Dashboard = () => {
   }, []); // [] significa que executa apenas uma vez ao carregar a página
 
   return (
-    <div className="p-10 bg-slate-900 min-h-screen">
+    <div className="p-10 bg-slate-900 pb-20">
       <header className="mb-10 text-center">
         <h1 className="text-4xl font-extrabold text-white tracking-tight">
           Crypto <span className="text-blue-500">Live</span>
